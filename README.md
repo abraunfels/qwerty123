@@ -7,11 +7,12 @@
 3. Закрытый ключ RSA хранится по стандарту PKCS#8.
 4. Мастер-ключом для закрытого ключа RSA является хеш-сумма (PBKDF2-HMAC-SHA256, 100000) от пароля пользователя. 
 
-###### Генерирование псевдослучайных паролей.
-
 ###### Вход в систему.
 <img width="501" alt="auth" src="https://user-images.githubusercontent.com/22542567/121979373-baedd480-cd92-11eb-9c84-877b1096cd88.png">
 
 ###### Интерфейс пользователя.
+<img width="502" alt="main" src="https://user-images.githubusercontent.com/22542567/121979596-2637a680-cd93-11eb-881a-39248e6d413a.png">
+
+###### Генерирование псевдослучайных паролей.
 <img width="565" alt="gen" src="https://user-images.githubusercontent.com/22542567/121979463-ea044600-cd92-11eb-9dec-22e70b44d5de.png">
 
